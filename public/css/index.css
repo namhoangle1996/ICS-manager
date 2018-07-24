@@ -1,0 +1,139 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.row {
+	margin-bottom: 0px!important;
+}
+.page-body {
+	padding: 10px 20px 0px 20px;
+}
+.page-body .hide-account-tab{
+	position: fixed;
+	height: 5%;
+	top: 7%;
+	background: #FF9B9B;
+	color: snow !important;
+	text-transform: capitalize;
+	width: 7%;
+	margin-right: -20px;
+	line-height: 40px;
+	right: 1.5%;
+	z-index: 20;
+}
+.page-body .hide-account-tab p {
+	color: snow;
+	text-align: center;
+}
+.page-body .left-logo {
+	border-right: 1px solid #0000000f;
+	border-bottom: 1px solid #0000000f;
+	height: 70px!important;
+}
+.page-body .right-menu {
+
+	border-bottom: 1px solid #0000000f;
+	height: 70px!important;
+}
+.page-body .tabs	 {
+	direction: rtl;
+}
+.page-body .tabs .tab	 {
+	text-align: right;
+	margin-left: 20px;
+}
+.page-body .tabs .tab a	 {
+	padding: 0;
+}
+.page-body .tabs .tab .responsive-img {
+	vertical-align: middle!important
+}
+.page-body .tabs .tab .material-icons {
+	vertical-align: middle!important;
+}
+
+.page-body .list .left-list{
+	/*padding-left: 20px;*/
+	border-right: 1px solid #0000000f;
+	padding-top: 2%;
+	font-family: "ubuntu-medium", sans-serif;
+}
+
+.page-body .list .left-list .ul {
+	background: white;
+	padding: 15px 15px 15px 30px;
+	width: 113%;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: -29px;
+}
+.page-body .list .left-list .ul:not(:last-child):hover {
+	background: #ffc0cb6b;
+	transition: 0.4s;
+	color: white;
+}
+
+
+.page-body .list .material-icons {
+	vertical-align: middle;
+	float: right;
+	color: #f3999d;
+}
+.page-body .list .ul {
+	color: #3e4b5b;
+
+}
+.page-body .list .ul a {
+	color: #3e4b5b;
+
+}
+.page-body .list .ul .li {
+	display: none;
+	padding-left: 23px;
+	padding-top: 22px;
+	
+}
+.page-body .list .detail-list {
+	background: #F2EDF3;
+	height: 880px;
+
+}
+.page-body .list .detail-list .card{
+	margin-left: 5%!important;
+	margin-right: 5%!important;
+}
+.page-body .list .detail-list .card-content {
+	height: 800px;
+	/*	overflow-y: scroll;*/
+}
+
+.ul-active {
+	background: #ffc0cb6b!important;
+	transition: 0.4s!important;
+	color: white!important;
+}
+.li-active {
+	margin-top: 10px;
+	padding-left: 64px!important;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #03a9f4ab;
+	width: 114%;
+	color: snow !important;
+	margin-left: -29px;
+}
+
+/*custom lai */
+ select, textarea{
+	color: white;
+}
+.tabs .indicator {
+	background: snow!important;
+	left: 100%!important;
+}
+
+tr:hover {
+	color: #2598cc!important;
+	transform: scale(1.02);
+}

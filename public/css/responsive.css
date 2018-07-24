@@ -1,0 +1,127 @@
+@media (max-width: 586px) {
+	.page-body .left-logo {
+		line-height: 65px;
+	}
+	.page-body .left-logo img {
+		width: 100%;
+	}
+  .page-body .hide-account-tab{
+    width: 20%;
+    margin: 5px 28px 0px 0px;
+    height: 40px;
+  }
+  .page-body .tabs .tab .responsive-img {
+    /*margin-left: 26px;*/
+    width: 32px;
+  }
+  .page-body .list {
+    margin-top: 15px;
+  }
+  .page-body .list .left-list {
+    border-right: 0px!important;
+  }
+  .page-body .list .left-list .ul {
+    align-items: center;
+    background: white;
+    padding: 15px 10px 15px 11px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .page-body .list .add {
+   text-align: left;
+   padding-bottom: 22px;
+ }
+ .page-body .list .time {
+   position: fixed;
+   left: 36%!important;
+   font-size: 23px;
+   bottom: 10px;
+ }
+ .page-body .list .detail-list {
+  height: 100%;
+  margin-top: 10%;  
+}
+.page-body .list .detail-list .card-content {
+  height: 100%!important;
+}
+.page-body .list .detail-list #searchInput {
+  width: 85%!important; 
+}
+.page-body .list .detail-list .card  {
+  margin : 0px!important;
+}
+.delete {
+  float: none!important;
+  padding-left: 17px;
+}
+}
+@media (max-width: 320px)
+{
+  .page-body .tabs .tab .responsive-img {
+    margin-left: 26px;
+    width: 32px;
+  }
+
+}
+
+/*table responsive*/
+@media (min-width: 320px) and (max-width: 767px) {
+  .table-responsive,
+  .table-responsive thead,
+  .table-responsive tbody,
+  .table-responsive th,
+  .table-responsive td,
+  .table-responsive tr {
+    display: block;
+  }
+  .table-responsive > thead > tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .table-responsive > tbody > tr {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  .table-responsive > tbody > tr:first-child {
+    border-radius: 3px 3px 0 0;
+    border-top: none;
+  }
+  .table-responsive > tbody > tr:last-child {
+    border-radius: 0 0 3px 3px;
+    border-bottom: none;
+  }
+  .table-responsive > tbody > tr td {
+    line-height: 37px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-left: 40% !important;
+    width: 100%;
+    overflow: hidden;
+  }
+  .table-responsive > tbody > tr td:before {
+    content: attr(data-title);
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    width: 30%;
+    padding-right: 10px;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  .table-responsive > tbody > tr td:first-child {
+    text-align: left;
+  }
+  .table-responsive.table-order > tbody > tr:nth-child(-n + 3) > td:first-child {
+    padding: 25px 0 25px 30% !important;
+    background-position: left 32% center;
+  }
+  .table-responsive.table-order > tbody > tr:nth-child(-n + 3) > td:first-child span {
+    left: 32%;
+  }
+  .card-content {
+    padding: 0!important;
+    height: 100%
+  }
+}
